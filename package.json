@@ -1,23 +1,26 @@
 {
-    "name": "@blameitonyourisp/js-template",
+    "name": "@blameitonyourisp/three-shaders",
     "version": "0.0.1",
-    "description": "Template repository for general javascript projects.",
+    "description": "Assorted shaders for use with ThreeJS.",
     "keywords": [
-        "template",
-        "javascript"
+        "webgl",
+        "shaders",
+        "three-js"
     ],
-    "homepage": "https://github.com/blameitonyourisp/js-template#readme",
+    "homepage": "https://github.com/blameitonyourisp/three-shaders#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/blameitonyourisp/js-template.git"
+        "url": "git+https://github.com/blameitonyourisp/three-shaders.git"
     },
     "bugs": {
-        "url": "https://github.com/blameitonyourisp/js-template/issues"
+        "url": "https://github.com/blameitonyourisp/three-shaders/issues"
     },
     "author": "James Reid",
     "license": "MIT",
     "type": "module",
-    "bin": {},
+    "bin": {
+        "dist/package/index.js": "./dist/bin/index.js"
+    },
     "main": "./dist/package/index.js",
     "exports": {
         ".": "./dist/package/index.js",

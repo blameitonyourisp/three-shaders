@@ -20,6 +20,7 @@
 import { nodeResolve } from "@rollup/plugin-node-resolve"
 import terser from "@rollup/plugin-terser"
 import dts from "rollup-plugin-dts"
+import glslify from "rollup-plugin-glslify"
 
 // @@imports-types
 /* eslint-disable no-unused-vars -- Types only used in comments. */
@@ -67,9 +68,15 @@ const configs = [
         name: "package",
         development: [
             {
-                input: "./src/package/index.js",
+                // input: "./src/package/index.js",
+                input: "./src/web/scripts/index.js",
                 output: [
                     { file: "./build/package/index.js", format: "es" }
+                ],
+                plugins: [
+                    // @ts-expect-error - Glslify is callable, but has no call
+                    // signature supplied provided by exported types.
+                    glslify()
                 ]
             }
         ],
@@ -86,7 +93,9 @@ const configs = [
                     // @ts-expect-error - Terser is callable, but has no call
                     // signature supplied provided by exported types.
                     terser({ maxWorkers: 6 }),
-                    nodeResolve()
+                    // @ts-expect-error - Glslify is callable, but has no call
+                    // signature supplied provided by exported types.
+                    glslify()
                 ]
             },
 

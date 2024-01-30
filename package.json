@@ -35,6 +35,9 @@
         "main": false,
         "types": false
     },
+    "@parcel/resolver-default": {
+        "packageExports": true
+    },
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
         "admin:deploy": "gh-pages --dist ./dist/web",
@@ -73,13 +76,13 @@
         "watch:bin": "nodemon --watch ./src/bin --exec 'npm run build:dev:bin'",
         "watch:package": "nodemon --watch .src/package --exec 'npm run build:dev:package'"
     },
-    "dependencies": {},
     "devDependencies": {
         "@13ms/funky": "^1.0.1",
         "@13ms/submodule": "^1.2.1",
         "@babel/plugin-transform-modules-commonjs": "^7.22.5",
         "@babel/preset-env": "^7.22.5",
         "@jest/globals": "^29.5.0",
+        "@parcel/transformer-glsl": "^2.10.2",
         "@rollup/plugin-babel": "^6.0.3",
         "@rollup/plugin-commonjs": "^25.0.2",
         "@rollup/plugin-node-resolve": "^15.1.0",
@@ -87,6 +90,7 @@
         "@types/jest": "^29.5.5",
         "@types/mustache": "^4.2.2",
         "@types/node": "^20.6.0",
+        "@types/three": "^0.160.0",
         "docdash": "^2.0.1",
         "dotenv": "^16.3.1",
         "eslint": "^8.49.0",
@@ -102,9 +106,13 @@
         "plop": "^4.0.0",
         "rollup": "^4.3.0",
         "rollup-plugin-dts": "^6.0.2",
+        "rollup-plugin-glslify": "^1.3.1",
         "rollup-plugin-postcss": "^4.0.2",
         "sharp": "^0.32.6",
         "typescript": "^5.1.6",
         "yaml": "^2.3.2"
+    },
+    "dependencies": {
+        "three": "^0.160.1"
     }
 }

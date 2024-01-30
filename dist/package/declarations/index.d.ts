@@ -1,1 +1,1 @@
-export {};
+export * from "./shaders/index.js";

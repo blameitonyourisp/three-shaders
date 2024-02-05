@@ -31,10 +31,17 @@ import filterFragmentShader from "./filter.frag"
 
 // @@body
 class BloomPass extends Pass {
-    constructor({
-        width = window.innerWidth,
-        height = window.innerHeight
-    } = {}) {
+    /**
+     *
+     * @param {THREE.WebGLRenderer} renderer
+     * @param {object} obj
+     * @param {number} obj.width
+     * @param {number} obj.height
+     */
+    constructor(
+        renderer,
+        { width, height } = renderer.getSize(new THREE.Vector2())
+    ) {
         super()
 
         this.renderTargetA = new THREE.WebGLRenderTarget(width, height, {

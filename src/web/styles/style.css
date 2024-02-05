@@ -1,0 +1,95 @@
+/* Base CSS reset, font and color variable declarations etc.. */
+@import url("./base/reset.css");
+@import url("./base/colors.css");
+@import url("./base/fonts.css");
+
+/* Reusable component styling imports. */
+@import url("./components/card.css");
+
+/* Global styles. */
+body {
+    background-color: var(--clr-neutral-200);
+    color: var(--clr-neutral-800);
+    font-family: var(--ff-primary);
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    background-color: var(--clr-neutral-200);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 3rem;
+    position: absolute;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 100%;
+}
+.nav.closed {
+    margin-left: -100%;
+}
+
+.nav-icon {
+    margin: 1rem;
+    position: absolute;
+    z-index: 1;
+}
+.nav-icon svg {
+    color: var(--clr-neutral-800);
+}
+.nav-icon.closed svg {
+    color: var(--clr-neutral-200);
+}
+.nav-icon:not(.closed) svg:nth-child(1) {
+    display: none;
+}
+.nav-icon.closed svg:nth-child(2) {
+    display: none;
+}
+
+.nav-item-container {
+    margin: auto;
+}
+
+.nav-item {
+    margin-top: 2rem;
+}
+.nav-item div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1rem;
+}
+
+.nav-item-title::after {
+    border-bottom: 1px solid var(--clr-neutral-900);
+    content: "";
+    display: block;
+    width:100%; 
+}
+
+.three-container {
+    width: 100%;
+}
+
+@media (min-width: 860px) {
+    .nav {
+        position: relative;
+        width: 38%;
+    }
+    .nav.closed {
+        margin-left: 0;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    .three-container {
+        width: 62%;
+    }
+}

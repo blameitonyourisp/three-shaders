@@ -1,12 +1,12 @@
 
 <p align="center">
-    <img width="605" src="https://img.shields.io/badge/blameitonyourisp-13-inactive?style=for-the-badge&labelColor=BAC99C&color=779966&logo=data:image/png;base64,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">
+    <img width="605" src="https://img.shields.io/badge/blameitonyourisp-13-inactive?style=for-the-badge&labelColor=BAC99C&color=779966&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjwhLS0gQ3JlYXRlZCB3aXRoIFZlY3Rvcm5hdG9yIChodHRwOi8vdmVjdG9ybmF0b3IuaW8vKSAtLT4KPHN2ZyBoZWlnaHQ9IjEwMCUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6dmVjdG9ybmF0b3I9Imh0dHA6Ly92ZWN0b3JuYXRvci5pbyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8ZGVmcy8+CjxnIGlkPSJMYXllci01IiB2ZWN0b3JuYXRvcjpsYXllck5hbWU9IkxheWVyIDUiPgo8cGF0aCBkPSJNMTc1IDBMODQ5IDBDOTQ1LjY1IDAgMTAyNCA3OC4zNTAyIDEwMjQgMTc1TDEwMjQgODQ5QzEwMjQgOTQ1LjY1IDk0NS42NSAxMDI0IDg0OSAxMDI0TDE3NSAxMDI0Qzc4LjM1MDIgMTAyNCAwIDk0NS42NSAwIDg0OUwwIDE3NUMwIDc4LjM1MDIgNzguMzUwMiAwIDE3NSAwWiIgZmlsbD0iI2U5ZTdlMiIgZmlsbC1ydWxlPSJub256ZXJvIiBvcGFjaXR5PSIwIiBzdHJva2U9Im5vbmUiLz4KPHBhdGggZD0iTTMwMiAzODJDMzAyIDQzNy4yMjggMjU3LjIyOCA0ODIgMjAyIDQ4MkwyMDIgNjQyQzIzNy40MzcgNjQyIDI3MS4yMTYgNjM0Ljg2OSAzMDIgNjIyLjAzMUwzMDIgOTUyTDQ2MiA5NTJMNDYyIDM4MkwzMDIgMzgyWiIgZmlsbD0iIzZmNGRiMyIgZmlsbC1ydWxlPSJub256ZXJvIiBvcGFjaXR5PSIxIiBzdHJva2U9Im5vbmUiLz4KPHBhdGggZD0iTTU2MiA3MkM0MTguNDA2IDcxLjk5OTkgMzAyIDE4OC40MDUgMzAyIDMzMkw0NjIgMzMyQzQ2MiAyNzYuNzcyIDUwNi43NzIgMjMyIDU2MiAyMzJDNjE3LjIyOCAyMzIgNjYyIDI3Ni43NzIgNjYyIDMzMkM2NjIgMzg3LjIyOCA2MTcuMjI4IDQzMiA1NjIgNDMyTDUxMiA0MzJMNTEyIDU5Mkw1NjIgNTkyQzYxNy4yMjggNTkyIDY2MiA2MzYuNzcyIDY2MiA2OTJDNjYyIDc0Ny4yMjggNjE3LjIyOCA3OTIgNTYyIDc5Mkw1MTIgNzkyTDUxMiA5NTJMNTYyIDk1MkM3MDUuNTk0IDk1MiA4MjIgODM1LjU5NSA4MjIgNjkyQzgyMiA2MjIuMDM2IDc5NC4xMzcgNTU4LjczNiA3NDkuMTg4IDUxMkM3OTQuMTM3IDQ2NS4yNjQgODIyIDQwMS45NjQgODIyIDMzMkM4MjIgMTg4LjQwNiA3MDUuNTk1IDcyIDU2MiA3MloiIGZpbGw9IiM3Nzk5NjYiIGZpbGwtcnVsZT0ibm9uemVybyIgb3BhY2l0eT0iMSIgc3Ryb2tlPSJub25lIi8+CjxwYXRoIGQ9Ik0zMDIgMzgyQzMwMiA0MzcuMjI4IDI1Ny4yMjggNDgyIDIwMiA0ODJMMjAyIDY0MkMzNDUuNTk0IDY0MiA0NjIgNTI1LjU5NCA0NjIgMzgyTDMwMiAzODJaIiBmaWxsPSIjNGYzYTc4IiBmaWxsLXJ1bGU9Im5vbnplcm8iIG9wYWNpdHk9IjEiIHN0cm9rZT0ibm9uZSIvPgo8cGF0aCBkPSJNNDYyIDMzMkM0NjIgMjc2Ljc3MiA1MDYuNzcyIDIzMiA1NjIgMjMyTDU2MiA3MkM0MTguNDA2IDcxLjk5OTkgMzAyIDE4OC40MDYgMzAyIDMzMkw0NjIgMzMyWiIgZmlsbD0iIzQxNTg0MSIgZmlsbC1ydWxlPSJub256ZXJvIiBvcGFjaXR5PSIxIiBzdHJva2U9Im5vbmUiLz4KPC9nPgo8L3N2Zz4K">
 </p>
 
 # three-shaders
 
 <!-- Insert a brief description of the repository on the lines below. -->
-
+A package containing various custom shader passes for use with [ThreeJS](https://threejs.org/).
 
 <!-- If applicable, insert link for web demo of repository in the paragraph below. -->
 This repository is hosted on [github](https://github.com), if you're already reading this there, then great! Otherwise browse the repository [here](https://github.com/blameitonyourisp/three-shaders). For a demo of the functionality of this repository, see [here](https://shaders.blameitonyourisp.com).
@@ -22,6 +22,9 @@ This repository is hosted on [github](https://github.com), if you're already rea
     - [Configuration](#configuration)
     - [Basic Usage](#basic-usage)
 - [Usage](#usage)
+    - [Passes](#passes)
+    - [Full Scene](#full-scene)
+    - [CommonJS](#commonjs)
 - [Testing](#testing)
 - [Documentation](#documentation)
 - [Roadmap](#roadmap)
@@ -32,12 +35,12 @@ This repository is hosted on [github](https://github.com), if you're already rea
 
 Approximate download size of repository, code files within repository, compressed main file, and (just for fun) lines written by the developer including comments etc. Please note that due to file compression, and post download installs/builds such as node module dependencies, the following badges may not exactly reflect download size or space on disk.
 
-![](https://img.shields.io/github/repo-size/blameitonyourisp/three-shaders?style=for-the-badge&labelColor=191a1a&color=779966) ![](https://img.shields.io/github/languages/code-size/blameitonyourisp/three-shaders?style=for-the-badge&labelColor=191a1a&color=779966) ![](https://img.shields.io/bundlephobia/minzip/%40blameitonyourisp/three-shaders?style=for-the-badge&labelColor=191a1a&color=779966) ![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/blameitonyourisp/js-template/main/dist/tokei.json)
+![](https://img.shields.io/github/repo-size/blameitonyourisp/three-shaders?style=for-the-badge&labelColor=191a1a&color=779966) ![](https://img.shields.io/github/languages/code-size/blameitonyourisp/three-shaders?style=for-the-badge&labelColor=191a1a&color=779966) ![](https://img.shields.io/bundlephobia/minzip/%40blameitonyourisp/three-shaders?style=for-the-badge&labelColor=191a1a&color=779966) ![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/blameitonyourisp/three-shaders/main/dist/tokei.json)
 
 ## Description
 
 <!-- Insert a longer description of the repository on the lines below. -->
-
+Three shaders is a package containing various custom shader passes for use within projects using [ThreeJS](https://threejs.org/). Each shader pass is implemented using the [post-processing](https://threejs.org/docs/#manual/en/introduction/How-to-use-post-processing) pipeline available in [ThreeJS](https://threejs.org/). These shaders are largely "just for fun", but may be useful for achieving certain effects in browser-based games etc.
 
 ## Getting Started
 
@@ -47,22 +50,105 @@ Please see the following sections for information on getting started using this 
 ### Installation
 
 <!-- Insert installation instructions for the repository on the lines below. -->
+This package may be installed from [npm](https://www.npmjs.com/) in any appropriate javascript or typescript project which is already using [ThreeJS](https://threejs.org/). If you do not already have ThreeJS installed in your project, please see [here](https://www.npmjs.com/package/three) for instructions on getting started. To install the package, please use the following command:
 
+```bash
+# optionally install three if your project does not already include it
+npm install --save three
+
+# install the boutique (recommended as a normal dependency)
+npm install --save @blameitonyourisp/three-shaders
+```
+
+Types for this package are written using [jsdoc](https://jsdoc.app/), are built using the [typescript compiler](https://www.npmjs.com/package/typescript) set to emit only type declarations, and are then combined into one declaration file using [rollup](https://rollupjs.org/) with the [rollup-plugin-dts](https://www.npmjs.com/package/rollup-plugin-dts) plugin. This declaration file is exported with the package by default, and may be found by following the `types` field defined in the `package.json` file.
 
 ### Configuration
 
 <!-- Insert basic configuration instructions for the repository on the lines below. -->
-
+Boutique requires no configuration, and should be handled by any bundler you may be using to produce the production version of scripts for your site. Please note that since the shader passes in this package must be used inside a [ThreeJS](https://threejs.org/) project, `three` is treated as an `external dependency` by this package, and is *not* bundled into the final output code.
 
 ### Basic Usage
 
 <!-- Insert basic usage instructions of the main feature(s) for the repository on the lines below. -->
+Please note that the following example assumes that the reader is already familiar with the basic concepts involved with setting up a scene in [ThreeJS](https://threejs.org/). If this is not the case, then please see the documentation on [creating a scene](https://threejs.org/docs/#manual/en/introduction/Creating-a-scene) before continuing. The example also renders only an empty, static scene with no animation loop, and does not include setup of any scene objects.
 
+When using custom shader passes in [post-processing](https://threejs.org/docs/#manual/en/introduction/How-to-use-post-processing), the main differences are as follows:
+
+- To use custom shader passes, an [`EffectComposer`](https://threejs.org/docs/#examples/en/postprocessing/EffectComposer) instance must be created, with passes being added to the `composer` object in order
+- When rendering the scene, the standard call to `renderer.render(scene, camera)` is replace with a call to `composer.render()` instead
+
+Please see the following code block for an example scene using a custom pass provided by this package:
+
+```javascript
+// ThreeJS dependencies including addon dependencies required for creating
+// effect composers.
+import * as THREE from "three"
+import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js"
+import { RenderPass } from "three/addons/postprocessing/RenderPass.js"
+
+// Custom pass imports from this package.
+import { AsciiPass } from "@blameitonyourisp/three-shaders"
+
+// Declare scene.
+const scene = new THREE.Scene()
+
+// Setup standard renderer.
+const renderer = new THREE.WebGLRenderer()
+renderer.setSize(window.innerWidth, window.innerHeight)
+document.appendChild(renderer.domElement)
+
+// Setup standard perspective camera.
+const { width, height } = renderer.getSize(new THREE.Vector2())
+const camera = new THREE.PerspectiveCamera(75, width / height)
+
+// Setup scene including models, lights etc., and configure camera, and renderer
+// as required...
+
+// Declare new EffectComposer instance.
+const composer = new EffectComposer(renderer)
+
+// Add standard render pass to the composer in order o render the scene.
+const renderPass = new RenderPass(scene, camera)
+composer.addPass(renderPass)
+
+// Add custom imported shader passes as required (can include multiple).
+const asciiPass = new AsciiPass(renderer)
+composer.addPass(asciiPass)
+
+// Replace standard call to `render` method of the renderer with a call to the
+// `render` method of the composer instead.
+composer.render()
+```
 
 ## Usage
 
 <!-- Insert more detailed usage instructions of the main feature(s) for the repository on the lines below. -->
+Please see the [basic usage](#basic-usage) section above for information on getting started with adding shader passes to a scene in [ThreeJS](https://threejs.org/), otherwise see below for more information on all features available in this package.
 
+### Passes
+
+Please see the following table for the currently available shader passes in this package and a description of what they do:
+
+| Import Name       | Constructor                                           | Description |
+|-------------------|-------------------------------------------------------|--------|
+| `AsciiPass`       | `new AsciiPass(renderer: THREE.WebGLRenderer)`        | Render scene using only a set of ASCII characters. |
+| `BloomPass`       | `new BloomPass(renderer: THREE.WebGLRenderer)`        | Slightly blur brighter parts of a scene to make them appear as if they are glowing. |
+| `PixelatePass`    | `new PixelatePass(renderer: THREE.WebGLRenderer)`     | Pixelate scene. |
+
+Note that each pass currently takes the `renderer` as a parameter into the constructor to extract width and height information. If the `renderer` object size is updated for any reason, these changes will *not* be reflected in any existing shader pass instances, and therefore these instances may have to be replaced in order to prevent rendering artifacts (these will mostly be related to incorrect aspect ratios in the rendered output).
+
+### Full Scene
+
+For an example full scene including lights, models, and animations, please see the demo web page [here](https://shaders.blameitonyourisp.com). to review the code of that page, please see the files for the static site under `./src/web`. The main page is located at `./src/web/pages/index.html`, and the entrypoint for the scripts is `./src/web/script/index.js`. To test the site locally, run `npm run start:web` after cloning the repository and installing dependencies.
+
+### CommonJS
+
+This package also provides a commonjs export for backwards compatibility with commonjs module syntax `require` imports. Please see the following code block for more information: 
+
+```javascript
+// Import boutique using commonjs require syntax.
+const { AsciiPass } = require("@blameitonyourisp/three-shaders/COMMON_JS")
+```
 
 ## Testing
 

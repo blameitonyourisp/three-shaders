@@ -25,7 +25,7 @@ import { AsciiPass, BloomPass, PixelatePass } from "../../package/index.js"
 // @@imports-module
 import { getCamera } from "./camera.js"
 import { getEffectComposer, updateEffectComposer } from "./composer.js"
-import { addPointLights, updateLightIntensity } from "./light.js"
+import { addPointLights, updateLightIntensity } from "./lights.js"
 import { getRenderer } from "./renderer.js"
 import "./icons.js"
 

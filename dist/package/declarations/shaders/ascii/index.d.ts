@@ -1,7 +1,14 @@
 export class AsciiPass extends Pass {
-    constructor({ width, height }?: {
-        width?: number | undefined;
-        height?: number | undefined;
+    /**
+     *
+     * @param {THREE.WebGLRenderer} renderer
+     * @param {object} obj
+     * @param {number} obj.width
+     * @param {number} obj.height
+     */
+    constructor(renderer: THREE.WebGLRenderer, { width, height }?: {
+        width: number;
+        height: number;
     });
     uniforms: {
         tDiffuse: {

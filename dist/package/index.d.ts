@@ -2,9 +2,16 @@ import { Pass, FullScreenQuad } from 'three/addons/postprocessing/Pass.js';
 import * as THREE from 'three';
 
 declare class AsciiPass extends Pass {
-    constructor({ width, height }?: {
-        width?: number | undefined;
-        height?: number | undefined;
+    /**
+     *
+     * @param {THREE.WebGLRenderer} renderer
+     * @param {object} obj
+     * @param {number} obj.width
+     * @param {number} obj.height
+     */
+    constructor(renderer: THREE.WebGLRenderer, { width, height }?: {
+        width: number;
+        height: number;
     });
     uniforms: {
         tDiffuse: {
@@ -30,9 +37,16 @@ declare class AsciiPass extends Pass {
 }
 
 declare class BloomPass extends Pass {
-    constructor({ width, height }?: {
-        width?: number | undefined;
-        height?: number | undefined;
+    /**
+     *
+     * @param {THREE.WebGLRenderer} renderer
+     * @param {object} obj
+     * @param {number} obj.width
+     * @param {number} obj.height
+     */
+    constructor(renderer: THREE.WebGLRenderer, { width, height }?: {
+        width: number;
+        height: number;
     });
     renderTargetA: THREE.WebGLRenderTarget<THREE.Texture>;
     renderTargetB: THREE.WebGLRenderTarget<THREE.Texture>;
@@ -83,9 +97,16 @@ declare class BloomPass extends Pass {
 }
 
 declare class PixelatePass extends Pass {
-    constructor({ width, height }?: {
-        width?: number | undefined;
-        height?: number | undefined;
+    /**
+     *
+     * @param {THREE.WebGLRenderer} renderer
+     * @param {object} obj
+     * @param {number} obj.width
+     * @param {number} obj.height
+     */
+    constructor(renderer: THREE.WebGLRenderer, { width, height }?: {
+        width: number;
+        height: number;
     });
     uniforms: {
         tDiffuse: {

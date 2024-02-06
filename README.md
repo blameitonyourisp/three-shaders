@@ -65,7 +65,7 @@ Types for this package are written using [jsdoc](https://jsdoc.app/), are built 
 ### Configuration
 
 <!-- Insert basic configuration instructions for the repository on the lines below. -->
-Boutique requires no configuration, and should be handled by any bundler you may be using to produce the production version of scripts for your site. Please note that since the shader passes in this package must be used inside a [ThreeJS](https://threejs.org/) project, `three` is treated as an `external dependency` by this package, and is *not* bundled into the final output code.
+This package requires no configuration, and should be handled by any bundler you may be using to produce the production version of scripts for your site. Please note that since the shader passes in this package must be used inside a [ThreeJS](https://threejs.org/) project, `three` is treated as an `external dependency` by this package, and is *not* bundled into the final output code.
 
 ### Basic Usage
 

@@ -56,7 +56,7 @@ This package may be installed from [npm](https://www.npmjs.com/) in any appropri
 # optionally install three if your project does not already include it
 npm install --save three
 
-# install the boutique (recommended as a normal dependency)
+# install three-shaders (recommended as a normal dependency)
 npm install --save @blameitonyourisp/three-shaders
 ```
 
